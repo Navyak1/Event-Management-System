@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Event</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Add a New Event</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="add-event.html">Add Event</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Event Details</h2>
+        <form id="add-event-form">
+            <label for="event-name">Event Name:</label>
+            <input type="text" id="event-name" name="event-name" required>
+            <label for="event-date">Event Date:</label>
+            <input type="date" id="event-date" name="event-date" required>
+            <label for="event-description">Description:</label>
+            <textarea id="event-description" name="event-description" required></textarea>
+            <button type="submit">Add Event</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Event Management System</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
